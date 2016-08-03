@@ -1,0 +1,38 @@
+input::-webkit-input-placeholder {
+  color: #FFF !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+  color: #FFF !important;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+  color: #FFF !important;
+}
+
+input:-ms-input-placeholder {
+  color: #FFF !important;
+}
+
+.navbar-form.main-nav-search-form {
+  box-shadow: none;
+  border-bottom: none;
+  border-top: none;
+}
+
+.main-nav-search-input {
+  font-size: 20px;
+  border: 0px;
+  background-color: #222 !important;
+  color: #FFF !important;
+  box-shadow: none !important;
+}
+
+.main-nav-search-button {
+  font-size: 20px;
+  border: 0px;
+  background-color: #222 !important;
+  color: #43acfb !important;
+  outline: none !important;
+}
+
