@@ -23,8 +23,15 @@
 .album-title {
   text-align: left;
   background-color: #D3D3D3;
+  font-weight: 500;
 }
 
 .track-details {
   display: inline-block;
+}
+
+.buy-link {
+  color: #43acfb;
+  float: right;
+  font-weight: 500;
 }

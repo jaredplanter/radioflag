@@ -1,20 +1,22 @@
-<table class="table table-hover">
+<table class="table table-hover album-tracks">
   <thead>
     <tr>
       <th colspan="2" class="album-title">
         <%= @album_name %>
+        <span class="buy-link">BUY ALBUM</span>
       </th>
     </tr>
   </thead>
   <tbody>
     <% @tracks.each do |track| %>
       <tr>
-        <td>
+        <td style="border-top: none;">
           <img src="<%= track.album_coverart_100x100 %>" width="50px" height="50px">
           <div class="track-details">
             <b><%= track.track_name %></b><br />
             <small><%= time_in_seconds_and_minutes(track.track_length) %></small>
           </div>
+          <span class="buy-link">BUY</span>
         </td>
       </tr>
     <% end %>
