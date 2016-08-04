@@ -10,7 +10,7 @@
 # DEMO
 https://radioflag.herokuapp.com
 
-# MusixMatch GEM (modified to fit my needs)
+# MusixMatch GEM (updated to fit my needs)
 https://github.com/jaredplanter/musix_match
 
 # Notes
