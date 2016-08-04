@@ -1,0 +1,19 @@
+.albums-header {
+  background-color: #43acfb;
+  color: #FFF;
+  text-align: center;
+  font-weight: bold;
+
+  a, a:hover, a:focus {
+    color: #FFF;
+  }
+
+  .back-arrow {
+    float: left;
+  }
+}
+
+#album-coverflow {
+  background-color: #222;
+  color: #FFF;
+}
