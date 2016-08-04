@@ -1,4 +1,4 @@
-<% if @results.any? %>
+<% if @albums.any? %>
 <div class="albums-header">
   <a href="<%= request.referrer%>">
     <span class="back-arrow glyphicon glyphicon-menu-left" aria-hidden="true"></span>
@@ -7,21 +7,14 @@
 </div>
 <div id="album-coverflow">
   <ul>
-    <% @results.each do |result| %>
-      <li>
-        <img src="<%= result.album_coverart_100x100 %>">
+    <% @albums.each do |album| %>
+      <li data-tracks-path="/albums/<%= album.album_id %>">
+        <img src="<%= album.album_coverart_100x100 %>">
       </li>
     <% end %>
   </ul>
 </div>
-<div class="table-responsive">
-  <table class="table table-striped">
-    <tbody>
-      <tr>
-        <td></td>
-        <td></td>
-      </tr>
-  </table>
+<div id="album-tracks" class="table-responsive">
 </div>
 <% else %>
   <div class="text-center">
