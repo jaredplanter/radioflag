@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  root "search#index"
+  get "search", to: "search#results"
+  get "artists/:id", to: "artists#albums"
+  get "artists/:id/albums/:album_id", to: "artists#album_tracks"
 end

@@ -1,0 +1,30 @@
+<% if @results.any? %>
+<div class="albums-header">
+  <a href="<%= request.referrer%>">
+    <span class="back-arrow glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+  </a>
+  Albums
+</div>
+<div id="album-coverflow">
+  <ul>
+    <% @results.each do |result| %>
+      <li>
+        <img src="<%= result.album_coverart_100x100 %>">
+      </li>
+    <% end %>
+  </ul>
+</div>
+<div class="table-responsive">
+  <table class="table table-striped">
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+  </table>
+</div>
+<% else %>
+  <div class="text-center">
+    Sorry, no albums were found for this artist. <%= link_to "Back", request.referrer %>
+  </div>
+<% end %>
