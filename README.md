@@ -15,4 +15,4 @@ https://github.com/jaredplanter/musix_match
 
 # Notes
 * All of my comments are in my git commits. I like to write my ruby in a way that is "self documenting", however I do write extensive notes in my git commits
-* All of the API calls to MusixMatch are happening through a MusixMatch gem (library) that I found and editted for my use. The majority of the work for this project was done in that gem. You can find the gem link above. Please review that repository to see my code changes that enabled me to leverage the MusixMatch API.
+* All of the API calls to MusixMatch are happening through a MusixMatch gem (library) that I found and edited for my use. The majority of the work for this project was done in that gem. You can find the gem link above. Please review that repository to see my code changes that enabled me to leverage the MusixMatch API.
