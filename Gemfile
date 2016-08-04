@@ -29,7 +29,10 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 # Bootstrap
-gem 'bootstrap-sass', '~> 3.2.0'
+gem 'bootstrap-sass', '~> 3.3.7'
+
+# Musix Match
+gem 'musix_match', github: "jaredplanter/musix_match"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
