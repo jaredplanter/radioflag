@@ -1,0 +1,17 @@
+<div class="table-responsive">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Artist</th>
+        <th>Country</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @results.each do |result| %>
+        <tr>
+          <td><%= link_to result.artist_name, "/artists/#{result.artist_id}" %></td>
+          <td><%= result.artist_country %></td>
+        </tr>
+      <% end %>
+  </table>
+</div>
