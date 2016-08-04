@@ -1,4 +1,4 @@
-# Jared Planter - RadioFlag interview assignment
+# Jared Planter - RadioFlag assignment
 
 # Critera
 - [x] Customer clicks search to find an artist
