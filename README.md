@@ -2,10 +2,10 @@
 
 # Critera
 - [x] Customer clicks search to find an artist
-- [x] Search results are rendered with 1 artist per row with artist name and country displayed
-- [x] Customer can click the artist name to see an Albums widget
+- [x] Search results are rendered with 1 artist per row with artist name and country displayed (artist.search)
+- [x] Customer can click the artist name to see an Albums widget (artist.albums.get)
 - [x] Albums widget displays a coverflow of available albums
-- [ ] Albums widget displays a list of tracks for the currently selected album
+- [ ] Albums widget displays a list of tracks for the currently selected album (album.tracks.get)
 
 # DEMO
 https://radioflag.herokuapp.com
