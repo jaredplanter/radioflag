@@ -36,3 +36,15 @@ input:-ms-input-placeholder {
   outline: none !important;
 }
 
+.Absolute-Center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.Absolute-Center.is-Responsive {
+  width: 80%;
+  height: 75%;
+  min-width: 200px;
+  max-width: 1200px;
+}

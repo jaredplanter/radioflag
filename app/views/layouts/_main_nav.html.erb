@@ -1,9 +1,9 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
-    <div class="navbar-header pull-left">
-      <form class="navbar-form main-nav-search-form" role="search">
+    <div class="navbar-header pull-left" style="margin-top: 6px;">
+      <form action="/search" method="GET" class="form-horizontal main-nav-search-form" role="search">
         <div class="input-group">
-          <input type="text" class="form-control main-nav-search-input" placeholder="Artist name">
+          <input type="text" value="<%= cookies[:artist_name] %>" name="artist_name" class="form-control main-nav-search-input" placeholder="Artist name">
           <div class="input-group-btn">
             <button type="submit" class="btn btn-default main-nav-search-button">
               <span class="glyphicon glyphicon-search"></span>
