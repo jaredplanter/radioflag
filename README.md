@@ -13,7 +13,8 @@ https://radioflag.herokuapp.com
 # Dependencies 
 * MusixMatch (forked and updated for this exercise): https://github.com/jaredplanter/musix_match
 * Flipster (coverflow effect): https://github.com/drien/jquery-flipster
-* Bootstrap w/sass for boilerplate design
+* Bootstrap w/sass for boilerplate design: http://getbootstrap.com/
+* Will_paginate for artist pagination: https://github.com/mislav/will_paginate
 
 # Notes
 * This is a Ruby on Rails application using the latest version 5.0
