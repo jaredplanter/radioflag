@@ -8,8 +8,8 @@
 <div id="album-coverflow">
   <ul>
     <% @albums.each do |album| %>
-      <li data-tracks-path="/albums/<%= album.album_id %>">
-        <img src="<%= album.album_coverart_100x100 %>">
+      <li data-tracks-path="/albums/<%= album.id %>">
+        <img src="<%= album.cover_art %>">
       </li>
     <% end %>
   </ul>
