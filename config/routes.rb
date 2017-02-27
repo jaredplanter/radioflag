@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root "search#index"
-  get "search", to: "search#results"
-  get "artists/:id", to: "artists#albums"
+  resources :artists, only: [:show]
   get "albums/:id", to: "albums#tracks"
+  get "search", to: "search#results"
 end
