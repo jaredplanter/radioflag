@@ -1,7 +1,6 @@
 class AlbumsController < ApplicationController
   def show
-    @tracks ||= MusixMatch.get_album_tracks(params[:id]).track_list
-    @album_name = @tracks.first.album_name
+    @tracks ||= Track.select_by_album_id params[:id]
     render layout: false
   end
 end

@@ -2,7 +2,7 @@
   <thead>
     <tr>
       <th colspan="2" class="album-title">
-        <%= @album_name %>
+        <%= @tracks.first.album_name unless @tracks.blank? %>
         <span class="buy-link">BUY ALBUM</span>
       </th>
     </tr>
