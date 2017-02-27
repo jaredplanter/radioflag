@@ -11,10 +11,10 @@
     <% @tracks.each do |track| %>
       <tr>
         <td style="border-top: none;">
-          <img src="<%= track.album_coverart_100x100 %>" width="50px" height="50px">
+          <img src="<%= track.cover_art %>" width="50px" height="50px">
           <div class="track-details">
-            <b><%= track.track_name %></b><br />
-            <small><%= time_in_seconds_and_minutes(track.track_length) %></small>
+            <b><%= track.name %></b><br />
+            <small><%= time_in_seconds_and_minutes(track.length) %></small>
           </div>
           <span class="buy-link">BUY</span>
         </td>
